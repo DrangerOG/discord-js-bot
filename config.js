@@ -1,14 +1,14 @@
 module.exports = {
-  OWNER_IDS: [""], // Bot owner ID's
-  SUPPORT_SERVER: "", // Your bot support server
+  OWNER_IDS: ["1046813139641057300"], // Bot owner ID's
+  SUPPORT_SERVER: "https://discord.gg/XQFzAcJWQN", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
     DEFAULT_PREFIX: "4", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
-    CONTEXT: false, // Should contexts be enabled
-    GLOBAL: false, // Should the interactions be registered globally
+    CONTEXT: true, // Should contexts be enabled
+    GLOBAL: true, // Should the interactions be registered globally
     TEST_GUILD_ID: "xxxxxxxxxxx", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
